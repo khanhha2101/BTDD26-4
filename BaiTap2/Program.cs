@@ -43,6 +43,12 @@ namespace BaiTap2
     {
         static void Main(string[] args)
         {
+            Cat cat117 = new Cat();
+            cat117.run();
+            Bird bird117 = new Bird();
+            bird117.fly();
+
+            Console.ReadLine();
         }
     }
 }
